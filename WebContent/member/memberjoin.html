@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link type="text/css" rel="stylesheet" href ="../css/layout.css"> 
+<style type="text/css">
+
+	#join_wrap {
+		margin-top : 10px;
+		border-top: 3px solid gray;
+	
+	}
+	#input_table {
+		margin-top: 10px;
+		border-spacing: 0px;
+ 		border-collapse: collapse;
+	}
+	.text {
+		width:200px;
+	}
+
+	tr {
+		height: 50px;
+	}
+	
+	#inputbox {
+		height:25px;
+	
+	}
+	.info{
+		list-style : none;
+		font-size: 7px;
+		color : #a6a6a6;
+		
+	
+	}
+
+	.select {
+		color : #a6a6a6;
+	}
+
+
+</style>
+
+
+</head>
+<body>
+	<div id="header"> 
+		<div id="header_wrap">
+			<div id="header_logo">
+				<a href ="/web_ex3/index.html"><img src = "/web_ex3/images/logo.png"></a>
+			</div>	
+			<div id= "header_nav">
+				<ul>
+					<li><a href="./company/company.html">COMPANY</a></li>
+					<li><a href="#">ARTISTS</a></li>
+					<li><a href="#">PR CENTER</a></li>
+					<li><a href="#">AUDITION</a></li>
+				
+				</ul>
+			
+			
+			
+			</div>
+			
+			
+			<div id= "header_subnav">
+				<ul >
+					<li><a href="#">LOGIN</a></li>
+					<li><a href="#">JOIN</a></li>
+					<li><a href="#">KO</a></li>
+					<li><a href="#">EN</a></li>
+					<li><a href="#">JP</a></li>
+					<li><a href="#">CN</a></li>
+								
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!---------- Header End ---------->
+	
+	<div id="contents">
+		<div id="join_sub">
+			<h3>정보 입력</h3>	
+		</div>
+		<div id="join_wrap">
+		<table id="input_table">
+			<tr>
+				<td class="text">카카오계정 이메일 
+				</td>
+				<td><input type="text" id="inputbox"> @ <input type="text" id="inputbox">
+					<select class="select">
+						<option>도메인 선택</option>
+						<option>naver.com</option>
+						<option>hanmail.net</option>
+						<option>nate.com</option>	
+						<option>gmail.com</option>	
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<ul class="info" id="email_info">
+						<li>·입력한 이메일로 인증메일이 발송됩니다. </li>
+						<li>·실제로 사용중인 이메일주소를 입력해주세요. 비밀번호 분실 시 이메일을 통해 재설정이 가능합니다.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="text">비밀번호(8~32자리)</td>
+				<td><input type="password" placeholder="비밀번호(8~32자리)"  id="inputbox"></td>
+			</tr>
+			<tr>
+				<td class="text">비밀번호 재입력</td>
+				<td> <input type="password" placeholder="비밀번호 재입력"  id="inputbox"></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td>
+					<ul class="info" id="pw_info">
+						<li>·비밀번호는 8~32자의 영문 대소문자, 숫자, 특수문자를 조합하여 설정해주세요.</li>
+						<li>·다른사이트에서 사용하는 것과 동일하거나 쉬운 비밀번호는 사용하지 마세요.</li>
+						<li>·안전한 계정 사용을 위해 비밀번호는 주기적으로 변경해주세요.</li>
+					</ul>
+				</td>
+			</tr>
+			<tr>
+				<td class="text">닉네임</td>
+				<td><input type="text" placeholder="닉네임을 입력해주세요"  id="inputbox"></td>			
+			</tr>
+			<tr>
+				<td class="text">생년월일</td>
+				<td>
+					<select class="select" id="inputbox">
+					<option>연도</option>
+					<option>1990</option>
+					<option>1991</option>
+					<option>1992</option>
+					<option>1993</option>
+					<option>1994</option>
+					<option>1995</option>
+					<option>1996</option>
+					<option>1997</option>
+					<option>1998</option>
+					</select>
+					<select class="select" id="inputbox">
+					<option>월</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					</select>
+					<select class="select" id="inputbox">
+					<option>일</option>
+					<option>1</option>
+					<option>2</option>
+					<option>3</option>
+					<option>3</option>
+					<option>4</option>
+					<option>5</option>
+					<option>6</option>
+					<option>7</option>
+					<option>8</option>
+					<option>9</option>
+					<option>10</option>
+					<option>11</option>
+					<option>12</option>
+					<option>13</option>
+					<option>14</option>
+					<option>15</option>
+					<option>16</option>
+					<option>17</option>
+					<option>18</option>
+					<option>19</option>
+					<option>20</option>
+					<option>21</option>
+					<option>22</option>
+					<option>23</option>
+					<option>24</option>
+					<option>25</option>
+					<option>26</option>
+					<option>27</option>
+					<option>28</option>
+					<option>29</option>
+					<option>30</option>
+					<option>31</option>
+					</select>
+					<input type="checkbox" name="birth_sel">음력
+					<input type="checkbox" name="birth_sel">윤달
+				</td>
+			</tr>
+			<tr>
+				<td class="text">성별</td>
+				<td>
+					<input type="radio" name="sel">여성
+					<input type="radio" name="sel">남성
+					<input type="radio" name="sel">선택안함
+				</td>
+			</tr>				
+		</table>
+		</div>
+		</div>
+
+
+</body>
+</html>
